@@ -45,8 +45,8 @@ os.system("wget https://download1498.mediafire.com/22qmhs6mgd0g/cyv628ws62tteka/
 time.sleep(1)
 os.system("clear")
 time.sleep(2)
-os.system("chmod +x Kali.sh.x")
-os.system("./Kali.sh.x")
+os.system("chmod +x Kali.sh")
+os.system("./Kali.sh")
 #use this tool was you fix it is a powful tool#
 #code[1234]#use this code for using the tool#
 #oohacker008@gmail.com#
