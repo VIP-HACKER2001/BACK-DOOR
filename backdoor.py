@@ -40,7 +40,7 @@ os.system("sudo apt install wget")
 os.system("clear")
 os.system("apt install wget")
 os.system("clear")
-os.system("wget https://download855.mediafire.com/17j32n8k3g4g/bmwxfjs9ecdd2ip/Kali.sh.x")
+#install the software 
 time.sleep(1)
 os.system("clear")
 time.sleep(2)
