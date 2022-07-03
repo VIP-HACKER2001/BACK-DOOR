@@ -7,7 +7,9 @@ time
 sleep 2
 sudo apt update -y
 apt update -y
+sudo apt install espeak -y
 apt install espeak -y
+sudo apt install espeak-ng-espeak -y
 apt install espeak-ng-espeak -y
 clear
 espeak "ENTER YOUR USERNAME"
@@ -16,13 +18,10 @@ read user
 espeak "WELLCOME $user"
 sleep 2
 clear
-
 sleep 2
 espeak "ENTER THE CODE HERE"
 echo "ENTER THE CODE HERE :"
-
 read code
-
 if [ "$code" = "1234" ];
 
 then 
@@ -54,7 +53,6 @@ else
         do
         espeak "ERROR CODE"  
         echo -en "\e[31m"`CODE ERROR"\e[31m"`
-
         echo -en "\e[42m"`CODE ERROR"\e[42m"`
 
         done
