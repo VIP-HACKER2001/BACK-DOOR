@@ -31,6 +31,11 @@ then
          rm -rf Kali.sh
          cd ..
          rm -rf BACK-DOOR
+         espeak "access approved"
+         echo "ACCESS APPROVED"
+         sleep 2
+         clear
+         
          espeak "ENTER THE IP"
          echo "ENTER THE IP"
          read ip
