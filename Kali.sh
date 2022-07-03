@@ -16,6 +16,7 @@ espeak "ENTER YOUR USERNAME"
 echo "ENTER YOUR USERNAME:"
 read user
 espeak "WELLCOME $user"
+echo " WELLCOME $user"
 sleep 2
 clear
 sleep 2
